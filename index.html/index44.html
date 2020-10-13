@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h2>my capital citys</h2>
+	<p>in the wordls somany capitals is there in capital list in the below </p>
+
+	<button onclick="myfunctions()">hide elements</button>
+
+	<h2 class="city">londan</h2>
+	<p> londan is capital of england.</p>
+
+	<h2 class="city">paris</h2>
+	<p>paris is capital of emo.</p>
+
+	<h2 class="city">delhi</h2>
+	<p> delhi capital of india.</p>
+
+<script>
+function myFunction() {
+  var x = document.getElementsByClassName("city");
+  for (var i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
